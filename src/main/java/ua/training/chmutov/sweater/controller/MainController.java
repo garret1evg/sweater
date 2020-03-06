@@ -1,4 +1,4 @@
-package ua.training.chmutov.sweater;
+package ua.training.chmutov.sweater.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,7 +11,7 @@ import ua.training.chmutov.sweater.repos.MessageRepo;
 import java.util.Map;
 
 @Controller
-public class GreetingController {
+public class MainController {
     @Autowired
     private MessageRepo messageRepo;
 
